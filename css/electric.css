@@ -1,0 +1,68 @@
+/* Black background */
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Centered guitar container */
+.guitar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* Space between images */
+    width: 90%;
+}
+
+/* Individual guitar item */
+.guitar-item {
+    text-align: center;
+    flex: 1; /* Ensures equal spacing */
+}
+
+/* Full-screen guitar images */
+.guitar-item img {
+    width: 100%;  /* Takes full width of its container */
+    max-width: 500px; /* Limits max size */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover effect on images */
+.guitar-item img:hover {
+    transform: scale(1.05);
+}
+
+/* Guitar names (links) */
+.guitar-name {
+    display: block;
+    margin-top: 10px;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect on names */
+.guitar-name:hover {
+    color: orange;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .guitar-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .guitar-item img {
+        max-width: 90%;
+    }
+}

@@ -1,0 +1,41 @@
+/* Black background */
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Centered email text */
+.contact-container {
+    text-align: center;
+}
+
+.email {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Back to Home Button */
+.back-button {
+    display: block;
+    width: 200px;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    background-color: gray;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+.back-button:hover {
+    background-color: darkgray;
+}

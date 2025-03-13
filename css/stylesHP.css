@@ -1,0 +1,68 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: url('../Images/homepage.jpg') no-repeat center center/cover;
+    font-family: Arial, sans-serif;
+    color: white;
+    position: relative;
+}
+
+/* Container for center elements */
+.container {
+    text-align: center;
+    max-width: 80%;
+}
+
+/* Welcome text styling */
+.welcome-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Center shop button */
+.shop-button {
+    display: inline-block;
+    padding: 15px 40px;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Shop button hover effect */
+.shop-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Bottom-left buttons container */
+.bottom-left {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+/* Styling for bottom buttons */
+.bottom-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out;
+}
+
+/* Hover effect for bottom buttons */
+.bottom-button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

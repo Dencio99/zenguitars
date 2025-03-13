@@ -1,0 +1,41 @@
+/* Black background */
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Centered container for buttons */
+.products-container {
+    display: flex;
+    gap: 20px;
+}
+
+/* Product buttons */
+.product-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    text-align: center;
+    width: 200px; /* Ensures all buttons have the same width */
+    display: inline-block;
+}
+
+/* Button colors */
+.red { background-color: red; }
+.purple { background-color: purple; }
+.blue { background-color: blue; }
+
+/* Hover effect */
+.product-button:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}
